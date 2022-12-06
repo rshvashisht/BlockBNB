@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>BlockBNB</title>
+    <style>
+      div{
+        text-align: center;
+      }
+    </style>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">BlockBNB</h1>
+          <!--<button class="btn btn-default btn-currency" type="button">Convert to Dollars</button>-->
+          <hr/>
+          <br/>
+          <div class="text-center">
+            <p id="account" class="welcome"></p>
+            <p id="accountBalance" class="welcome"></p>
+          </div>
+          <div class="Metamask">
+          <button class="enableEthereumButton btn" type="button" data-id="0" data-value="2">Connect to Metamask</button>  
+          </div>
+        </div>
+      </div>
+
+      <div id="propertiesRow" class="row">
+        <!-- PROPERTIES LOAD HERE -->
+      </div>
+    </div>
+
+    <div id="propertyTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-property">
+          <div class="panel-heading">
+            <h3 class="panel-title">Hotel Bliss</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="height:140px;" src="images/hotel bliss.png" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Type</strong>: <span class="property-type">House</span><br/>
+            <strong>Sleeps</strong>: <span class="property-capacity">8</span><br/>
+            <strong>Location</strong>: <span class="property-location">Kashmir, India</span><br/><br/>
+            <strong>Rate Per Night</strong>: <span class="property-rate">2</span><span class="currency"> Ether</span><br/><br/>
+            <button class="btn btn-default btn-book" type="button" data-id="0" data-value="2">Book</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

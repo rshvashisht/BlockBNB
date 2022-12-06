@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Hotel Bliss",
+    "picture": "images/hotel bliss.png",
+    "type": "Single",
+    "sleeps": 2,
+    "location": "Kashmir, India",
+    "rate": 2
+  },
+  {
+    "id":1,
+    "name": "English Cottage",
+    "picture": "images/hotel_good.png",
+    "type": "Double",
+    "sleeps": 4,
+    "location": "Panipat, Haryana",
+    "rate": 3
+  },
+  {
+    "id":2,
+    "name": "Santoshi Mata Hotel",
+    "picture": "images/Santoshi.png",
+    "type": "Double",
+    "sleeps": 5,
+    "location": "Satna, MP",
+    "rate": 1
+  },
+  {
+    "id": 3,
+    "name": "Hyatt Amritsar",
+    "picture": "images/hyatt.png",
+    "type": "Double",
+    "sleeps": 3,
+    "location": "Amritsar, Punjab",
+    "rate": 3
+  },
+  {
+    "id":4,
+    "name": "Raddison Blu",
+    "picture": "images/radisson_fbd.png",
+    "type": "Double",
+    "sleeps": 3,
+    "location": "Faridabad, Haryana",
+    "rate": 2
+  },
+  {
+    "id":5,
+    "name": "Taj Mumbai",
+    "picture": "images/Taj_hotel.png",
+    "type": "Single",
+    "sleeps": 2,
+    "location": "SoHo",
+    "rate": 4
+  },
+  {
+    "id":6,
+    "name": "Sunset Lodge",
+    "picture": "images/Sunset-Lodge-Sign.png",
+    "type": "Double",
+    "sleeps": 6,
+    "location": "Miami",
+    "rate": 8
+  },
+  {
+    "id":7,
+    "name": "Lodge on the Beach",
+    "picture": "images/goa.png",
+    "type": "Double",
+    "sleeps": 6,
+    "location": "Goa",
+    "rate": 3
+  }
+]

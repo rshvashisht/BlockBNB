@@ -1,0 +1,21 @@
+{
+  "name": "bnb",
+  "version": "0.0.2",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sage Franch",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@truffle/contract": "^4.6.8",
+    "web3": "^1.8.1"
+  }
+}
